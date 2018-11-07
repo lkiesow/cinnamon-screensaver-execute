@@ -1,6 +1,9 @@
 Cinnamon Screensaver Execute
 ============================
 
+[![Build Status](https://travis-ci.com/lkiesow/cinnamon-screensaver-execute.svg?branch=master)
+](https://travis-ci.com/lkiesow/cinnamon-screensaver-execute)
+
 
 A simple tool to execute commands when Cinnamon's screensaver engages and locks
 the session. You can use this for example to adjust the lighting of peripheral
