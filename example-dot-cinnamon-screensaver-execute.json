@@ -1,0 +1,4 @@
+{
+  "locked": ["g810-led", "-fx", "color", "all", "ff0000"],
+  "unlocked": ["g810-led", "-fx", "color", "all", "ffffff"]
+}
