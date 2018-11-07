@@ -10,7 +10,7 @@ import (
 	"github.com/godbus/dbus"
 )
 
-type Config struct {
+type config struct {
 	Locked   []string  `json:"locked"`
 	Unlocked []string  `json:"unlocked"`
 }
@@ -25,7 +25,7 @@ func main() {
 	}
 
 	// parse json
-	config := Config{}
+	config := config{}
 	json.Unmarshal(dat, &config)
 	fmt.Println("Execute on locked:")
 	fmt.Println("  ", config.Locked)
